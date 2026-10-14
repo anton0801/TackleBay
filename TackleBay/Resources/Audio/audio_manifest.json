@@ -1,0 +1,16 @@
+{
+  "format": "WAV PCM 48 kHz 16 bit",
+  "generator": "ElevenLabs text-to-sound-effects (eleven_text_to_sound_v2), mastered offline: DC removal, onset trim, 4 ms fade-in, 8 ms fade-out, peak normalisation",
+  "sounds": [
+    { "id": "AU01", "filename": "tb_ui_tap.wav", "trigger": "important manual buttons, max once per 80 ms", "duration": 0.16, "channels": 1, "volume": 1.0, "loopFlag": false },
+    { "id": "AU02", "filename": "tb_item_checked.wav", "trigger": "Confirm Row in return, Packed reaches Required", "duration": 0.28, "channels": 1, "volume": 1.0, "loopFlag": false },
+    { "id": "AU03", "filename": "tb_trip_started.wav", "trigger": "Start Trip committed", "duration": 0.88, "channels": 2, "volume": 1.0, "loopFlag": false },
+    { "id": "AU04", "filename": "tb_return_saved.wav", "trigger": "Confirm Return committed", "duration": 0.82, "channels": 1, "volume": 1.0, "loopFlag": false },
+    { "id": "AU05", "filename": "tb_ticket_claim.wav", "trigger": "Claim Free Ticket committed", "duration": 0.68, "channels": 1, "volume": 1.0, "loopFlag": false },
+    { "id": "AU06", "filename": "tb_reel_spin.wav", "trigger": "standard CAST animation after commit, not with Reduce Motion", "duration": 2.4, "channels": 2, "volume": 1.0, "loopFlag": false },
+    { "id": "AU07", "filename": "tb_reel_stop.wav", "trigger": "each of the three reel stops", "duration": 0.2, "channels": 1, "volume": 1.0, "loopFlag": false },
+    { "id": "AU08", "filename": "tb_parts_received.wav", "trigger": "first presentation of any cast result", "duration": 0.92, "channels": 2, "volume": 1.0, "loopFlag": false },
+    { "id": "AU09", "filename": "tb_miniature_built.wav", "trigger": "Build committed", "duration": 1.35, "channels": 2, "volume": 1.0, "loopFlag": false },
+    { "id": "AU10", "filename": "tb_underwater_ambience.wav", "trigger": "Bay Bonus open with Bonus Ambience on", "duration": 14.0, "channels": 2, "volume": 0.8, "loopFlag": true }
+  ]
+}
